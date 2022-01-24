@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+html {
+    font-size: 56.3%;
+}
+
+.swiper.sub {
+    height: calc(100vh - 60px);
+}
+
+.sport nav {
+    height: 60px;
+    line-height: 60px;
+}
+
+.sport nav a {
+    width: 100px;
+    padding: 5px 0;
+    margin-right: 20px;
+}
+
+.swiper.sub .swiper-wrapper .content {
+    width: 450px;
+    left: 20px;
+}
+
+.swiper.sub .swiper-wrapper .content .img_box {
+    height: 350px;
+    padding: 15px;
+}
+
+.swiper.sub .swiper-wrapper .content .img_box img {
+    height: 280px;
+}
+
+.swiper.sub .swiper-wrapper .content .img_box::after {
+    right: 15px;
+    bottom: 10px;
+    width: 110px;
+    height: 35px;
+}
+
+/* campaign */
+
+.campaign .inner_wrap div[class^=sec] .text_box h3 {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li dl {
+    width: 350px;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li .img1 {
+    width: 300px;
+}
+
+
+.campaign .inner_wrap .sec1 .text_box .content li .img1 {
+    height: 230px;
+}
+
+.campaign .inner_wrap .sec2 .text_box .content li .img1 {
+    height: 250px;
+}
+
+.campaign .inner_wrap .sec3 .text_box .content li .img1 {
+    height: 275px;
+}
+
+.campaign .inner_wrap .sec1 .text_box .content li:nth-child(2) dl dd:nth-of-type(2) {
+    display: none;
+}
+
+.campaign .inner_wrap .sec1 .text_box .content li .img2 {
+    width: 300px;
+    height: 300px;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .sign_box .bt_box {
+    right: 20px;
+    bottom: 10px;
+    border: 1px solid var(--color2);
+    padding: 5px 10px;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .sign_box {
+    margin-top: 40px;
+    padding: 30px 20px;
+
+}
+
+.campaign .inner_wrap .sec2 .text_box .sign_box {
+    height: 320px;
+}
+
+.campaign .inner_wrap .sec3 .text_box .sign_box {
+    height: 300px;
+}
+
+/* wornWear */
+
+.wornWear .sub_bg {
+    height: 350px;
+}
+
+.wornWear .content li .img_box1 {
+    height: 328px;
+}
+
+.wornWear .content li .img_box2 {
+    height: 273px;
+}
+
+.wornWear .content li .img_box3 {
+    height: 376px;
+}

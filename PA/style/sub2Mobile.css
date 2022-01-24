@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+html {font-size: 50%;}
+
+header {
+    height: 300px;
+}
+
+.fabric_tech {
+    max-width: 500px;
+    width: 97%;
+}
+
+.fabric_tech nav {
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.fabric_tech nav a {
+    width: 80px;
+}
+
+.fabric_tech .content_fabric,
+.fabric_tech .content_tech {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+.fabric_tech .content_fabric li, 
+.fabric_tech .content_tech li {
+    max-width: 487px;
+    width: 91.4%;
+}
+
+.fabric_tech .content_fabric li div[class^=fabric],
+.fabric_tech .content_tech li div[class^=tech] {height: 320px;}
+
+.fabric_tech .content_fabric li div[class^=fabric] a,
+.fabric_tech .content_tech li div[class^=tech] a {
+    line-height: 320px;
+}
+
+.fabric_tech .content_fabric li:nth-last-of-type(2),
+.fabric_tech .content_tech li:nth-last-of-type(2) {margin-bottom: 0;}
+.fabric_tech .content_fabric li:last-child,
+.fabric_tech .content_tech li:last-child {display: none;}
+
+/* .organization */
+
+.organization .sub_bg {
+    height: 200px;
+    padding: 30px 0 0 10px;
+}
+
+.organization .sub_bg h3 {
+    font-size: 20px;
+}
+
+.organization .sub_bg h3::after {
+    height: 15px;
+}
+
+.organization .content {
+    padding-top: 10px;
+    max-width: 520px;
+    width: 97%;
+}
+
+.organization .content li {
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.organization .content li:last-child {
+    padding-bottom: 20px;
+}
+
+.organization .content li div[class^=img_box] {
+    width: 68.8%;
+    position: absolute;
+    z-index: -1;
+}
+
+.organization .content li:nth-child(odd) div[class^=img_box] {
+    float: unset;
+    left: 0;
+    top: 0;
+}
+.organization .content li:nth-child(even) div[class^=img_box] {
+    float: unset;
+    right: 0;
+    top: 0;
+}
+
+.organization .content li .img_box1 {
+    height: 240px;
+}
+.organization .content li .img_box2 {
+    height: 280px;
+}
+.organization .content li .img_box3 {
+    height: 250px;
+}
+.organization .content li .img_box4 {
+    height: 250px;
+}
+
+.organization .content li dl {
+    padding: 10px;
+    width: 64%;
+    /* background-color: rgba(255,255,255, 0.8); */
+    background-color: var(--color7);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    /* color: #000; */
+    color: var(--color2);
+}
+
+.organization .content li:nth-child(even) dt,
+.organization .content li:nth-child(odd) dt
+ {text-align: left;}
+.organization .content li:nth-child(odd) dl {
+    float: right;
+    margin: 40px 15px 0 0 ;
+}
+.organization .content li:nth-child(even) dl {
+    float: left;
+    margin: 40px 0 0 15px ;
+}
+
+.organization .content li dt {
+    padding-bottom: 30px;
+    font-size: 14px;
+}

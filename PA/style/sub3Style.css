@@ -1,0 +1,451 @@
+@charset "utf-8";
+@import url('../style/common.css');
+@import url('../style/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+
+header {
+    height: 700px;
+    background: url('../img/active/active_bg.png') 50% 80% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sport,
+.campaign,
+.wornWear {display: none;}
+
+.sport.on,
+.campaign.on,
+.wornWear.on {display: block;}
+
+
+/* .swiper.sub .swiper-wrapper {
+    height: inherit;
+} */
+.sport {
+position: relative;
+}
+
+.sport nav {
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    width: 100%;
+}
+
+.sport nav a {
+    display: inline-block;
+    width: 122px;
+    padding: 5px;
+    margin-right: 20px;
+    border: 1px solid var(--color2);
+    vertical-align: middle;
+    position: relative;
+}
+
+.sport nav a br {
+    display: none;
+}
+
+.sport nav a:hover {
+    color: #fff;
+    background-color: #0E76BD;
+    border: none;
+}
+
+.sport nav a:last-child {
+    margin-right: 0;
+}
+
+/* ------------- */
+.swiper.sub {
+    height: calc(100vh - 70px);
+    /* height: auto; */
+    position: relative;
+}
+
+.swiper.sub .swiper-wrapper div[class*=factor] {
+    padding-bottom: 56.25%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.swiper.sub .swiper-wrapper video[class^=sub_vd] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.swiper.sub .swiper-wrapper .content {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px 30px 0;
+    color: #fff;
+}
+
+.swiper.sub .swiper-wrapper .content h2 {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.swiper.sub .swiper-wrapper .content h2::after {
+    content: "";
+    position: absolute;
+    width: 105%;
+    height: 20px;
+    background-color: #F1592A;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.swiper.sub .swiper-wrapper .content p {
+    text-align: justify;
+    word-break: keep-all;
+    padding: 15px 0;
+    font-weight: 300;
+}
+
+.swiper.sub .swiper-wrapper .content .img_box {
+    height: 400px;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.swiper.sub .swiper-wrapper .content .img_box img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.swiper.sub .swiper-wrapper .content .img_box::after {
+    content: "";
+    background: url('../img/main/logo.png') center no-repeat;
+    background-size: contain;
+    width: 122px;
+    height: 38px;
+    position: absolute;
+    bottom: 11px;
+    right: 20px;
+}
+
+.swiper.sub .swiper-wrapper .content .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.swiper.sub .swiper-wrapper .content .menu li {
+    flex: 0 0 49%;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.swiper.sub .swiper-wrapper .content .menu li a {
+    display: block;
+    padding: 5px 0;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.swiper.sub .swiper-pagination {
+    --swiper-theme-color: #F1592A;
+}
+
+/* campaign */
+.campaign .inner_wrap div[class^=sec] {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.campaign .inner_wrap div[class^=sec] .sub_bg {
+    float: left;
+    width: 50%;
+    height: inherit;
+}
+
+.campaign .inner_wrap .sec1 .sub_bg {
+    background: url('../img/active/Campaign/single_use/cam1_bg.png') center no-repeat;
+    background-size: cover;
+}
+
+.campaign .inner_wrap .sec2 .sub_bg {
+    background: url('../img/active/Campaign/송악산/cam2_bg.png') center no-repeat;
+    background-size: cover;
+}
+
+.campaign .inner_wrap .sec3 .sub_bg {
+    background: url('../img/active/Campaign/푸른심장/cam3_bg.png') 50% 10% no-repeat;
+    background-size: cover;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box {
+    float: right;
+    width: 50%;
+    padding: 20px;
+    color: var(--color2);
+    position: relative;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box h3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* .campaign .inner_wrap div[class^=sec] .text_box .content li {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: flex-start;
+} */
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.campaign .inner_wrap .sec1 .text_box .content li {
+    padding-bottom: 20px;
+}
+
+/* .campaign .inner_wrap div[class^=sec] .text_box .content li.reverse {flex-direction: row-reverse;} */
+
+.campaign .inner_wrap .sec1 .text_box .content li:last-child {
+    padding-bottom: 0;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li .img1 {
+    /* flex: 0 1 400px; */
+    width: 400px;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.campaign .inner_wrap .sec1 .text_box .content li .img1 {
+    height: 280px;
+    background: url('../img/active/Campaign/single_use/cam1_1.png') center no-repeat;
+}
+
+.campaign .inner_wrap .sec2 .text_box .content li .img1 {
+    height: 300px;
+    background: url('../img/active/Campaign/송악산/cam2_1.png') center no-repeat;
+}
+
+.campaign .inner_wrap .sec3 .text_box .content li .img1 {
+    height: 325px;
+    background: url('../img/active/Campaign/푸른심장/cam3_1.png') center no-repeat;
+}
+
+.campaign .inner_wrap .sec1 .text_box .content li .img2 {
+    /* flex: 0 1 400px; */
+    width: 400px;
+    height: 420px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background: url('../img/active/Campaign/single_use/cam1_2.png') center no-repeat;
+    background-size: cover;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li dl {
+    /* flex: 0 1 400px; */
+    width: 450px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: var(--color7);
+    padding: 10px;
+    /* color: #000; */
+    color: var(--color2);
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li:nth-child(odd) dl {
+    float: right;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li:nth-child(even) dl {
+    float: left;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li dt {
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li.reverse dt {
+    text-align: right;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li dd {
+    /* word-break: keep-all; */
+    text-align: justify;
+    padding-bottom: 24px;
+    /* font-size: 1.4rem; */
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .content li dd:last-child {
+    padding-bottom: 0;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .sign_box {
+    position: absolute;
+    max-width: 484px;
+    width: 90%;
+    margin-top: 50px;
+    padding: 30px 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.dark .campaign .inner_wrap div[class^=sec] .text_box .sign_box {border: 1px solid #fff;}
+
+
+.campaign .inner_wrap .sec2 .text_box .sign_box {
+    height: 320px;
+}
+
+.campaign .inner_wrap .sec3 .text_box .sign_box {
+    height: 320px;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .sign_box dt {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .sign_box dd:first-child {
+    /* word-break: keep-all; */
+    text-align: justify;
+}
+
+.campaign .inner_wrap div[class^=sec] .text_box .sign_box .bt_box {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    border: 2px solid var(--color2);
+    padding: 5px 10px;
+}
+
+/* wornWear */
+.wornWear .sub_bg {
+    height: 500px;
+    background: url('../img/active/worn_wear/worn_bg.png') 50% 40% no-repeat;
+    background-size: cover;
+    padding: 100px 0 0 200px;
+}
+
+.wornWear .content {
+    width: 98%;
+    max-width: 1100px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.wornWear .content li {
+    padding-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.wornWear .content li:last-child {
+    padding-bottom: 0;
+}
+
+.wornWear .content li div[class^=img_box] {
+    width: 47%;
+    height: 330px;
+    background-size: cover;
+}
+
+.wornWear .content li:nth-child(odd) div[class^=img_box] {
+    float: right;
+}
+
+.wornWear .content li:nth-child(even) div[class^=img_box] {
+    float: left;
+}
+
+.wornWear .content li .img_box1 {
+    background: url('../img/active/worn_wear/worn1.png') center no-repeat;
+}
+
+.wornWear .content li .img_box2 {
+    background: url('../img/active/worn_wear/worn2.png') center no-repeat;
+    /* background-size: cover; */
+}
+
+.wornWear .content li .img_box3 {
+    background: url('../img/active/worn_wear/worn3.png') center no-repeat;
+    /* background-size: cover; */
+}
+
+.wornWear .content li dl {
+    padding-top: 30px;
+    width: 49%;
+    text-align: justify;
+    word-break: keep-all;
+}
+
+.wornWear .content li:nth-child(odd) dt {
+    text-align: right;
+}
+
+.wornWear .content li:nth-child(odd) dl {
+    float: left;
+}
+
+.wornWear .content li:nth-child(even) dl {
+    float: right;
+}
+
+.wornWear .content li dt {
+    padding-bottom: 100px;
+    font-size: 2rem;
+}
+
+.wornWear .master {
+    margin-top: 150px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 28%), rgba(0, 0, 0, 28%)), url('../img/active/worn_wear/worn_master.png') 50% 20% no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    height: 600px;
+    color: #fff;
+}
+
+.wornWear .master h2,
+p {
+    text-align: center;
+}
+
+.wornWear .master p:nth-of-type(1) {
+    padding: 10px 0 30px;
+    font-size: 1.8rem;
+}
+
+.wornWear .master p .bt_box {
+    padding: 5px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+}

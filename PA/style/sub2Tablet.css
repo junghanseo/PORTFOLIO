@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+html {font-size: 56.3%;}
+
+/* fabric_tech */
+
+.fabric_tech {
+    max-width: 950px;
+    width: 97%;
+}
+
+.fabric_tech nav {
+    height: 60px;
+    line-height: 60px;
+}
+
+.fabric_tech nav a {
+    width: 100px;
+}
+
+.fabric_tech .content_fabric li, 
+.fabric_tech .content_tech li {
+    max-width: 240px;
+}
+
+.fabric_tech .content_fabric li div[class^=fabric],
+.fabric_tech .content_tech li div[class^=tech] {height: 240px;}
+
+.fabric_tech .content_fabric li div[class^=fabric] a,
+.fabric_tech .content_tech li div[class^=tech] a {
+    line-height: 240px;
+}
+
+/* organization */
+
+.organization .sub_bg {
+    height: 350px;
+    padding: 50px;
+}
+
+.organization .sub_bg h3 {
+    font-size: 30px;
+}
+
+.organization .sub_bg h3::after {
+    height: 18px;
+}
+
+/* .organization {padding-top: 80px;} */

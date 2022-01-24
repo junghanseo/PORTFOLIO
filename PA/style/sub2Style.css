@@ -1,0 +1,320 @@
+@charset "utf-8";
+@import url('../style/common.css');
+@import url('../style/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
+
+header {
+    height: 700px;
+    background: url('../img/Environment/envir_bg.png') 50% 80% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fabric_tech,
+.organization {display: none;}
+
+.fabric_tech.on,
+.organization.on {display: block;}
+
+
+
+
+/* fabric_tech */
+
+.fabric_tech {
+    max-width: 1200px;
+    width: 97%;
+}
+
+.fabric_tech nav {
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+.fabric_tech nav a {
+    display: inline-block;
+    width: 122px;
+    padding: 5px;
+    margin-right: 20px;
+    border: 1px solid var(--color2);
+    vertical-align: middle;
+}
+
+.fabric_tech nav a:hover {
+    color: #fff;
+    background-color: #0E76BD;
+    border: none;
+}
+
+.fabric_tech nav a:last-child {
+    margin-right: 0;
+}
+
+.fabric_tech .content_fabric,
+.fabric_tech .content_tech {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10%; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fabric_tech .content_fabric li,
+.fabric_tech .content_tech li {
+    flex: 0 1 auto;
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.fabric_tech .content_fabric li div[class^=fabric],
+.fabric_tech .content_tech li div[class^=tech] {
+    height: 320px;
+}
+
+.fabric_tech .content_fabric li .fabric1 {
+    background: url('../img/Environment/fabric/fabric1.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric2 {
+    background: url('../img/Environment/fabric/fabric2.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric3 {
+    background: url('../img/Environment/fabric/fabric3.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric4 {
+    background: url('../img/Environment/fabric/fabric4.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric5 {
+    background: url('../img/Environment/fabric/fabric5.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric6 {
+    background: url('../img/Environment/fabric/fabric6.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric7 {
+    background: url('../img/Environment/fabric/fabric7.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric8 {
+    background: url('../img/Environment/fabric/fabric8.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric9 {
+    background: url('../img/Environment/fabric/fabric9.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric10 {
+    background: url('../img/Environment/fabric/fabric10.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li .fabric11 {
+    background: url('../img/Environment/fabric/fabric11.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_fabric li:last-child,
+.fabric_tech .content_tech li:last-child {
+    visibility: hidden;
+}
+
+.fabric_tech .content_fabric li div[class^=fabric] a,
+.fabric_tech .content_tech li div[class^=tech] a {
+    display: none;
+    height: inherit;
+    line-height: 320px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+
+.fabric_tech .content_fabric li div[class^=fabric] a span,
+.fabric_tech .content_tech li div[class^=tech] a span {
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.fabric_tech .content_fabric li div[class^=fabric]:hover a,
+.fabric_tech .content_tech li div[class^=tech]:hover a {
+    display: block;
+}
+
+
+.fabric_tech .content_fabric li .text_box dt,
+.fabric_tech .content_tech li .text_box dt {
+    font-size: 1.6rem;
+    padding: 10px 0 5px 0;
+}
+
+.fabric_tech .content_fabric li .text_box dd,
+.fabric_tech .content_tech li .text_box dd {
+    font-size: 1.4rem;
+}
+
+.fabric_tech .content_tech li .tech1 {
+    background: url('../img/Environment/technology/tech1.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_tech li .tech2 {
+    background: url('../img/Environment/technology/tech2.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_tech li .tech3 {
+    background: url('../img/Environment/technology/tech3.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_tech li .tech4 {
+    background: url('../img/Environment/technology/tech4.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_tech li .tech5 {
+    background: url('../img/Environment/technology/tech5.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_tech li .tech6 {
+    background: url('../img/Environment/technology/tech6.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_tech li .tech7 {
+    background: url('../img/Environment/technology/tech7.png') center no-repeat;
+    background-size: cover;
+}
+
+.fabric_tech .content_tech li .tech8 {
+    background: url('../img/Environment/technology/tech8.png') center no-repeat;
+    background-size: cover;
+}
+
+
+.fabric_tech .content_fabric,
+.fabric_tech .content_tech {
+    display: none;
+}
+
+.fabric_tech .content_fabric.on,
+.fabric_tech .content_tech.on {
+    display: flex;
+}
+
+/* organization */
+.organization .sub_bg {
+    height: 500px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../img/Environment/organization/sub_bg.png') 50% 25% no-repeat;
+    background-size: cover;
+    padding: 100px 0 0 200px;
+}
+
+.organization .sub_bg h3 {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    font-weight: 300;
+}
+
+.organization .sub_bg h3::after {
+    content: "";
+    position: absolute;
+    width: 83%;
+    height: 30px;
+    background-color: #F1592A;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
+
+.organization .content {
+    width: 98%;
+    max-width: 1200px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.organization .content li {
+    padding-bottom: 80px;
+    overflow: hidden;
+    position: relative;
+}
+
+.organization .content li:last-child {
+    padding-bottom: 0;
+}
+
+.organization .content li div[class^=img_box] {
+    width: 47%;
+}
+
+.organization .content li:nth-child(odd) div[class^=img_box] {
+    float: left;
+}
+
+.organization .content li:nth-child(even) div[class^=img_box] {
+    float: right;
+}
+
+.organization .content li .img_box1 {
+    height: 350px;
+    background: url('../img/Environment/organization/organization1.png') center no-repeat;
+    background-size: cover;
+}
+
+.organization .content li .img_box2 {
+    height: 380px;
+    background: url('../img/Environment/organization/organization2.png') center no-repeat;
+    background-size: cover;
+}
+
+.organization .content li .img_box3 {
+    height: 320px;
+    background: url('../img/Environment/organization/organization3.png') center no-repeat;
+    background-size: cover;
+}
+
+.organization .content li dl {
+    padding-top: 30px;
+    width: 49%;
+    text-align: justify;
+    /* word-break: keep-all; */
+}
+
+.organization .content li:nth-child(even) dt {
+    text-align: right;
+}
+
+.organization .content li:nth-child(odd) dl {
+    float: right;
+}
+
+.organization .content li:nth-child(even) dl {
+    float: left;
+}
+
+.organization .content li dt {
+    padding-bottom: 100px;
+    font-size: 2rem;
+}

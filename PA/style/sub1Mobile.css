@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+html {font-size: 50%;}
+
+header {
+    height: 300px;
+}
+
+.brand .sec1 {
+    height: 550px;
+    padding-top: 40px;
+}
+
+.brand .sec1 .inner_wrap h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.brand .sec1 .inner_wrap .left {display: none;}
+
+.brand .sec1 .inner_wrap .right {
+    float: unset;
+    width: 100%;
+}
+
+.brand .sec1 .inner_wrap .right h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.brand .sec1 .inner_wrap .right .sub_title {display:  none;}
+
+.brand .sec1 .inner_wrap .right p:nth-of-type(2) {display: block;}
+
+.brand .sec1 .inner_wrap .right p:nth-of-type(2) {padding: 20px 0 18px;}
+
+.brand .sec1 img {
+    height: 140px;
+}
+
+.brand .sec2 {
+    padding-top: 40px;
+    max-width: 520px;
+    width: 97%;
+}
+
+.brand .sec2 h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.brand .sec2 .content li {
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.brand .sec2 .content li:last-child {
+     padding-bottom: 70px;
+}
+
+
+.brand .sec2 .content li div[class^=img_box] {
+    width: 68.8%;
+    position: absolute;
+    z-index: -1;
+}
+
+.brand .sec2 .content li:nth-child(odd) div[class^=img_box] {
+    float: unset;
+    left: 0;
+    top: 0;
+}
+.brand .sec2 .content li:nth-child(even) div[class^=img_box] {
+    float: unset;
+    right: 0;
+    top: 0;
+}
+
+.brand .sec2 .content li .img_box1 {
+    height: 240px;
+}
+.brand .sec2 .content li .img_box2 {
+    height: 280px;
+}
+.brand .sec2 .content li .img_box3 {
+    height: 250px;
+}
+.brand .sec2 .content li .img_box4 {
+    height: 250px;
+}
+
+.brand .sec2 .content li dl {
+    padding: 10px;
+    width: 64%;
+    /* background-color: rgba(255,255,255, 0.9); */
+    background-color: var(--color7);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    color: var(--color2);
+    /* color: #000; */
+}
+
+.brand .sec2 .content li:nth-child(even) dt,
+.brand .sec2 .content li:nth-child(odd) dt
+ {text-align: center;}
+.brand .sec2 .content li:nth-child(odd) dl {
+    float: right;
+    margin: 40px 15px 0 0 ;
+}
+.brand .sec2 .content li:nth-child(even) dl {
+    float: left;
+    margin: 40px 0 0 15px ;
+}
+
+.brand .sec2 .content li dt {
+    padding-bottom: 30px;
+}
+
+/* history */
+.history div[class^=sec] {height: 550px;}
+.history div[class^=sec] .inner_wrap {
+    max-width: auto;
+    padding-left: 7%;
+}
+
+.history div[class^=sec] .inner_wrap h3 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.history div[class^=sec]:nth-child(odd) {padding-top: 40px;}
+
+.history div[class^=sec]:nth-child(odd) .inner_wrap > div {
+    width: 85%;
+    max-width: 400px;
+}
+
+.history div[class^=sec]:nth-child(even) {padding-top: 80px;}
+.history div[class^=sec]:nth-child(even) .inner_wrap > div {
+    width: 85%;
+    max-width: 400px;
+
+}
+
+.history div[class^=sec] .inner_wrap p {font-weight: 300;}
+
+
+/* news-letter */
+
+.news-letter .content {
+    padding-top: 40px;
+    width: 97%;
+    max-width: 567px;
+}
+
+.news-letter .content li {
+    padding-bottom: 30px;
+}
+
+.news-letter .content li a .text_box {
+    flex: 1 1 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.news-letter .content li a .text_box dl dt {
+    padding-bottom: 20px;
+}
+
+.news-letter .content li a .text_box dl dd {
+    padding-bottom: 20px;
+}
+
+.news-letter .content li a .text_box p span {
+    padding-right: 10px;
+}
+
+.news-letter .content li a .text_box p span.material-icons-outlined {
+    padding-right: 2px;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+.news-letter .content li a .thumnail {
+    display: none;
+}
