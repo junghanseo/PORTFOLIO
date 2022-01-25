@@ -1,0 +1,332 @@
+@charset "utf-8";
+
+html {
+    font-size: 56.3%;
+}
+
+header section {
+    height: 40px;
+}
+
+header section .wrap {
+    padding: 5px 0;
+}
+
+header section h1 {
+    height: 30px;
+}
+
+header section h1 a {
+    height: 30px;
+    width: 135px;
+}
+
+header section .symbol {height: 30px;}
+
+header section .right {
+    height: 30px;
+}
+
+header section .right .search_bar{
+    width: 160px;
+    height: 25px;
+    border: 1px solid #D01F2D;
+     padding: 2px 5px;
+}
+
+header section .right .search_bar input:first-child {
+    width: 120px;
+    font-size: 11px;
+}
+
+header section .right .search_bar input.submit_bt {
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+header section .right .mourning_bt {
+    font: normal 300 11px "Nanum Brush Script", cursive;
+    width: 34px;
+}
+
+
+header .visual {
+    height: 460px;
+
+}
+
+header .visual::after {
+    display: none;    
+}
+
+header .visual .wrap .circle  {
+    top: 50px;
+    right: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+header .visual .hd_slide {
+    margin: 120px 100px 0 0;
+    width: 300px;
+    height: 250px;
+}
+
+header .visual .hd_slide .factor1 {
+    background: url('../img/main/hd_slide1.png') 50% 0 no-repeat;
+}
+header .visual .hd_slide .factor3 {
+    background-size: contain;
+}
+
+header .visual .hd_slide .swiper-button-next::after,
+header .visual .hd_slide .swiper-button-prev::after {
+    font-size: 30px;
+}
+
+/* sec1 */
+ 
+body > .sec1 {
+    height: 450px;
+}
+
+body > .sec1 .wrap::before {display: none;}
+
+
+body > .sec1 .wrap .left > p br {display: none;}
+body > .sec1 .wrap .left > p {
+    padding: 10px 0 40px;
+}
+
+
+body > .sec1 .wrap .left .post_bt {
+    height: 120px;
+    padding: 15px 20px;
+}
+
+body > .sec1 .wrap .left .post_bt p:nth-of-type(2) {display: none;}
+body > .sec1 .wrap .left .post_bt p:nth-of-type(3) br {display: block;}
+body > .sec1 .wrap .left .post_bt p:nth-of-type(3) {padding-top: 10px;}
+
+body > .sec1 .wrap .right {
+    padding-right: 0; 
+    height: 344px;
+}
+
+body > .sec1 .wrap .right .tab div::after {
+    width: 35px;
+    height: 35px;
+}
+
+body > .sec1 .wrap .right .tab div a {
+    padding-left: 35px;
+}
+
+/* sec2 */
+body > .sec2 .icon_menu li {
+    width: 100px;
+    height: 100px;
+}
+
+/* sec3 */
+body > .sec3 {
+    height: auto;
+    margin-top: 90px;
+}
+
+body > .sec3 .left{
+    float: unset;
+    width: 100%;
+    height: 50px;
+}
+
+body > .sec3 .left ul {
+    height: inherit;
+    text-align: center;
+    position: static;
+    transform: translateY(0);
+    display: flex;
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > .sec3 .left ul li {padding-bottom: 0;}
+
+body > .sec3 .left ul li a.on::after{
+    width: 110%;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    top: unset;
+    bottom: -5px;
+    transform: translate(-50%, 0);
+}
+
+body > .sec3 .right {
+    float: unset;
+    width: 100%;
+    height: 300px;
+}
+
+body > .sec3 .right div[class^=tab] {
+    width: 100%;
+}
+
+body > .sec3 .right .tab1 dl:last-child:after {
+    display: none;
+}
+
+body > .sec3 .right .tab1 dl::before {
+    bottom: 10px;
+    right: 10px;
+}
+
+body > .sec3 .right .tab1 dl a:nth-of-type(2) {
+    bottom: 70px;
+    left: 84px;
+}
+
+/* sec4 */
+body > .sec4 {
+    margin-top: 50px;
+}
+
+body > .sec4 .left nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #F0907B;
+    color: #fff;
+}
+
+body > .sec4 .left nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    width: 80px;
+    font-size: 12px;
+}
+
+body > .sec4 .left nav > a {
+    font-size: 12px;
+}
+
+body > .sec4 .left ul[class^=bundle] {
+    padding: 15px 5px;
+}
+
+body > .sec4 .left ul[class^=bundle] li {
+    padding-bottom: 15px;
+}
+
+body > .sec4 .left ul[class^=bundle] li a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 76.7%;
+}
+
+body > .sec4 .right {
+    width: 50%;
+    height: 234.53px;
+}
+
+body > .sec4 .right .icon_menu li::after {
+    width: 50px;
+    height: 50px;
+}
+
+body > .sec4 .right .icon_menu li a {
+    padding: 10px 0 0 55px;
+}
+
+body > .sec4 .right .icon_menu li a br{display: block;}
+
+body > .sec4 .right .title {
+    height: 35px;
+}
+
+/* sec5 */
+body > .sec5 {
+    height: 450px;
+    margin-top: 50px;
+}
+
+body > .sec5::after {
+    height: 320px;
+}
+
+body > .sec5 .statistics {
+    margin-top: 80px;
+}
+
+body > .sec5 .statistics div[class*=factor] {
+    width: 22%;
+    height: 200px;
+}
+
+body > .sec5 .statistics div[class*=factor] p:first-child {
+    height: 50px;
+    line-height: 50px;
+}
+
+body > .sec5 .statistics div[class*=factor] p:last-child {
+    margin-top: 48px;
+    font-size: 30px;
+}
+
+body > .sec5 .statistics div[class*=factor] p:last-child::before {
+    font-size: 14px;
+}
+
+/* sec7 */
+body > .sec7 {
+    margin-top: 50px;
+    padding-top: 40px;
+    height: 400px;
+}
+
+body > .sec7 .wrap::after {
+    /* width: 250px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    transform: translate(-40%, -35%) rotate(-15deg); */
+    display: none;
+}
+
+body > .sec7 .title {
+    height: 35px;
+    margin-left: 15px;
+}
+
+body > .sec7 .title::after {
+    left: -2px;
+    transform: translateY(-100%);
+    font-size: 14px;
+    font-weight: 500;
+    color: #F0907B;
+}
+
+@media screen and (max-width: 950px){
+    body > .sec1 .wrap .left {
+        width: 44%;
+    }
+    
+    body > .sec1 .wrap .right {
+        width: 55%;
+    }
+
+    body > .sec6 .left{
+        width: 55%;
+    }
+
+    body > .sec6 .right {
+    width: 44%;
+}
+}

@@ -1,0 +1,599 @@
+@charset "utf-8";
+
+/* html {
+    font-size: 50%;
+}
+
+header section {
+    height: 36px;
+    background-color: #F5F5F5;
+}
+
+header section .wrap {
+    padding: 3px 0;
+}
+
+header section h1 {
+    height: 20px;
+}
+
+header section h1 a {
+    height: 20px;
+    width: 90px;
+    margin-top: 5px;
+}
+
+header section .symbol {
+    height: 20px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+
+header section .right {
+    display: block;
+}
+
+header section .right .search_bar {
+    display: none;
+}
+
+header nav {
+    height: 36px;
+}
+
+header nav .m_bt {
+    display: block;
+    float: right;
+    height: 36px;
+    padding-right: 5px;
+}
+
+header nav .m_bt .msearch,
+header nav .m_bt span.mopen {
+    font-size: 30px;
+    line-height: 36px;
+} */
+
+header .visual {
+    height: 208px;
+    overflow: visible;
+}
+
+header .visual .wrap .circle {
+    top: 25px;
+    right: 25px;
+    width: 80px;
+    height: 80px;
+}
+
+header .visual .hd_slide {
+    margin: auto;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 208px;
+    border-radius: 0;
+}
+
+header .visual .hd_slide .swiper-wrapper {
+    width: 350px;
+}
+
+header .visual .hd_slide .factor3 {
+    background-size: cover;
+}
+
+/* nav 나브*/
+header nav .gnb {
+    display: none;
+}
+
+/* nav */
+
+
+/* sec1 */
+body>.sec1 {
+    margin-top: 250px;
+    height: auto;
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/main/color_bg.png') top center no-repeat; */
+    background-size: 100% 350px;
+}
+
+body>.sec1 .wrap .left {
+    float: unset;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body>.sec1 .wrap .left>p {
+    padding: 10px 0 30px;
+}
+
+body>.sec1 .wrap .left .post_bt {
+    height: 100px;
+    border-radius: 25px;
+    padding: 12px 0 0 15px;
+}
+
+body>.sec1 .wrap .left .post_bt img {
+    height: 15px;
+}
+
+body>.sec1 .wrap .right {
+    float: unset;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    max-width: unset;
+}
+
+body>.sec1 .wrap .right .tab {
+    float: unset;
+    width: 100%;
+    max-width: unset;
+    text-align: center;
+}
+
+body>.sec1 .wrap .right .tab div {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 50px;    
+}
+
+body>.sec1 .wrap .right .tab div:last-child {
+    margin-right: 0;    
+
+}
+
+body > .sec1 .wrap .right .tab div::before {
+    display: none;
+}
+
+body>.sec1 .wrap .right .tab div:first-child {
+    padding-right: 10px;
+}
+
+body>.sec1 .wrap .right .sec1_slide {
+    height: 350px;
+    width: 100%;
+}
+
+body>.sec1 .wrap .right .swiper-wrapper {
+    width: 350px;
+}
+
+/* sec2 */
+body>.sec2 {
+    max-width: 600px;
+}
+
+body>.sec2 .text_bg {
+    height: 20px;
+    margin: 30px 0 20px;
+}
+
+body>.sec2 .icon_menu li {
+    width: 60px;
+    height: 60px;
+}
+
+body>.sec2 .icon_menu li a {
+    width: 60px;
+    height: 60px;
+}
+
+body>.sec2 .icon_menu li::after {
+    bottom: -5px;
+    width: 60px;
+}
+
+body>.sec2 .icon_menu li:nth-child(1)::after {
+    content: '온라인';
+}
+
+body>.sec2 .icon_menu li:nth-child(2)::after {
+    content: '우편';
+}
+
+body>.sec2 .icon_menu li:nth-child(3)::after {
+    content: 'FAX';
+}
+
+body>.sec2 .icon_menu li:nth-child(4)::after {
+    content: '기증 표시';
+}
+
+body>.sec2 .icon_menu li:nth-child(5)::after {
+    content: '재발급';
+}
+
+/* sec3 */
+body>.sec3 {
+    margin-top: 60px;
+}
+
+body>.sec3 .left {
+    height: 40px;
+}
+
+body>.sec3 .left ul {
+    max-width: 450px;
+    width: 90%;
+}
+
+body>.sec3 .left ul li a.on::after {
+    height: 2px;
+}
+
+body>.sec3 .right {
+    height: auto;
+}
+
+body>.sec3 .right .tab1 {
+    flex-direction: column;
+}
+
+body>.sec3 .right .tab1 dl {
+    flex: 0 0 240px;
+    margin: 0 auto;
+    padding: 20px 0 0 15px;
+    position: relative;
+    max-width: 510px;
+    width: 100%;
+}
+
+body>.sec3 .right .tab1 dl::after {
+    height: 1px;
+    width: 95%;
+    right: unset;
+    left: 50%;
+    top: unset;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+body>.sec3 .right .tab1 dl dt {
+    font-size: 18px;
+}
+
+body>.sec3 .right .tab1 dl dd {
+    font-size: 14px;
+}
+
+
+body>.sec3 .right .tab1 dl a:nth-of-type(1) {
+    bottom: 50px;
+}
+
+body>.sec3 .right .tab1 dl a:nth-of-type(2) {
+    bottom: 50px;
+    left: 70px;
+}
+
+body>.sec3 .right .tab1 dl a:nth-of-type(3) {
+    bottom: 15px;
+    padding: 4px 13px;
+}
+
+/* tab2 */
+body>.sec3 .right .tab2 dl {
+    float: unset;
+    max-width: 510px;
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+    padding: 20px 10px 0;
+    position: relative;
+}
+
+body>.sec3 .right .tab2 dl dt {
+    font-size: 18px;
+}
+
+body>.sec3 .right .tab2 dl dd {
+    font-size: 14px;
+    width: 76%;
+    word-break: keep-all;
+}
+
+body>.sec3 .right .tab2 dl a {
+    right: 15px;
+}
+
+body>.sec3 .right .tab2 dl:last-child::after {
+    width: 120px;
+    height: 120px;
+    right: 20px;
+}
+
+/* tab3 */
+body>.sec3 .right div.tab3 {
+    height: 350px;
+    background: url('../img/main/sec3_deco_m.png') center no-repeat;
+    background-size: cover;
+}
+
+body>.sec3 .right .tab3::after,
+body>.sec3 .right .tab3::before {
+    display: none;
+}
+
+body>.sec3 .right .tab3 dl {
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    max-width: 450px;
+    width: 95%;
+    height: auto;
+}
+
+body>.sec3 .right .tab3 dl dt {
+    font-size: 18px;
+}
+
+body>.sec3 .right .tab3 dl dd:nth-of-type(1) {
+    padding-bottom: 25px;
+}
+
+body>.sec3 .right .tab3 dl dd:nth-of-type(3) {
+    padding: 15px 0;
+}
+
+body>.sec3 .right .tab3 dl dd {
+    font-size: 14px;
+}
+
+body>.sec3 .right .tab3 dl dd br {
+    display: block;
+}
+
+body > .sec3 .right .tab3 dl a {
+    bottom: -20px;
+}
+
+/* sec4 */
+body > .sec4 {
+    margin-top: 40px;
+}
+
+body > .sec4 .left {
+    float: unset;
+    width: 100%;
+}
+
+body > .sec4 .left nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    width: 74px;
+    font-size: 11px;
+}
+
+body > .sec4 .left nav > a {
+    padding-right: 5px;
+}
+
+body > .sec4 .right {
+    margin-top: 30px;
+    float: unset;
+    width: 100%;
+    border:unset;
+    height: 350px;
+}
+
+body > .sec4 .right .icon_menu li a br{display: none;}
+
+
+body > .sec4 .right .title {
+    height: 44px;
+}
+
+/* sec5 */
+body > .sec5 {
+    height: auto;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+body > .sec5::after {
+    height: 400px;
+}
+
+body > .sec5 .statistics {
+    max-width: 500px;
+    width: 98%;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+body > .sec5 .statistics div[class*=factor] {
+    width: 47%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+body > .sec5 .statistics div[class*=factor] p:first-child {
+    height: 40px;
+    line-height: 40px;
+}
+
+body > .sec5 .statistics div[class*=factor] p:last-child {
+    margin-top: 58px;
+    font-size: 25px;
+}
+
+/* sec6 */
+body > .sec6 {
+    margin-top: 65px;
+    height: 360px; /*일단 놔둬*/
+}
+
+
+body > .sec6 .left{
+    width: 49%;
+    /* height: 100%; */
+}
+
+body > .sec6 .left .title {
+    left: 10px;
+    top: -10px;
+    height: 20px;
+}
+
+body > .sec6 .left .tab_bar{
+    float: unset;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+body > .sec6 .left .tab_bar li{
+    height: inherit;
+    line-height: inherit;
+}
+
+body > .sec6 .left .tab_bar li a {
+    display: inline-block;
+    height: inherit;
+    line-height: 50px;
+    width: 100%;
+}
+
+body > .sec6 .left div[class*=tab] {
+    float: unset;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    height: calc(100% - 50px);
+    padding: 10px 0 0 10px;
+}
+
+body > .sec6 .left div[class*=tab] div[class^=select] {
+    margin-bottom: 10px;
+}
+
+body > .sec6 .left div[class*=tab] div[class^=select] p {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+body > .sec6 .left div[class*=tab] div[class^=select] div[class*=bt_box] button span {
+    font: normal 400 12px 'Noto Sans KR', sans-serif;
+}
+
+body > .sec6 .left div[class*=tab] div[class^=select] div[class*=bt_box] ul {
+    height: 155px;
+}
+
+body > .sec6 .left div[class*=tab] div[class^=select] div[class*=bt_box] ul li a{
+    font-size: 12px;
+}
+
+body > .sec6 .left div[class*=tab] div[class^=select] .submit {
+    font-size: 12px;
+}
+
+body > .sec6 .right {
+width: 49%;
+}
+
+body > .sec6 .right .title {
+    left: 10px;
+    top: -10px;
+    height: 20px;
+}
+
+body > .sec6 .right .hero .swiper-button-next, 
+body > .sec6 .right .hero .swiper-button-prev {
+    display: none;
+}
+body > .sec6 .right .hero .swiper-pagination {
+    display: block;
+    --swiper-theme-color: #F0907B;
+}
+
+@media screen and (max-width: 650px) {
+    body > .sec6 {
+        height: auto;
+    }
+
+    body > .sec6 .left{
+        float: unset;
+        width: 100%;
+        height: 360px;
+    }
+
+    body > .sec6 .left div[class*=tab] {
+        padding: 15px 0 0 15px;
+    }
+
+    body > .sec6 .right {
+        float: unset;
+        width: 100%;
+        height: 400px;
+        margin-top: 50px;
+    }
+    
+
+}
+
+@media screen and (max-width: 500px) {
+    body > .sec4 .right .icon_menu {
+        width: 100%;
+        float: unset;
+        height: 200px;
+    }
+
+    body > .sec4 .right .popup {
+        float: unset;
+        width: 100%;
+        height: 350px;
+        margin-top: 10px;
+    }
+
+    body > .sec5 {
+        height: auto;
+        margin-top: 240px;
+        padding-top: 20px;
+    }
+
+    body > .sec5 > p::after {
+        content: '기증희망 등록은 미래에 사후 또는 뇌사시 기증희망 의사표시입니다.';
+    }
+}
+
+/* sec7 */
+body > .sec7 {
+    margin-top: 30px;
+    height: 380px;
+    padding-top: 40px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.6)) ,url('../img/main/sec7_bg.png') center no-repeat;
+}
+
+/* body > .sec7 .wrap::after {
+    display: none;
+} */
+
+body > .sec7 .video_link .swiper-button-next,    
+body > .sec7 .video_link .swiper-button-prev {display: none;}
+
+body > .sec7 .video_link .swiper-pagination {
+    display: block;
+    --swiper-theme-color: #F0907B;
+    transform: translateY(100%);
+    bottom: -10px;
+}    
+
+body > .sec7 .title {
+    height: 30px;
+    margin-left: 10px;
+}
+
+body > .sec7 .title::after {
+    font-size: 12px;
+}
+
+
+
