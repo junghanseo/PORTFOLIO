@@ -391,12 +391,10 @@ position: relative;
 
 .wornWear .content li .img_box2 {
     background: url('../img/active/worn_wear/worn2.png') center no-repeat;
-    /* background-size: cover; */
 }
 
 .wornWear .content li .img_box3 {
     background: url('../img/active/worn_wear/worn3.png') center no-repeat;
-    /* background-size: cover; */
 }
 
 .wornWear .content li dl {
@@ -434,7 +432,7 @@ position: relative;
 }
 
 .wornWear .master h2,
-p {
+.wornWear .master p {
     text-align: center;
 }
 
