@@ -1,18 +1,11 @@
-// var swiper = new Swiper(".sub", {
-//     direction: "vertical",
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//     },
-//     keyboard: {
-//         enabled: true,
-//       },
-//     mousewheel: true,
-//   });
+$(document).ready(function () {
+  var iw = window.innerWidth;
+if (iw >= 768 || $("html").hasClass("is-ie")) {
+  $(".sub3_slick").slick({});
+  }
 
-let iw = window.innerWidth;
-if (iw >= 768) {
-  let swiper1 = new Swiper(".sub", {
+if (iw >= 768 || !$("html").hasClass("is-ie")) {
+  var swiper3 = new Swiper(".sub", {
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
@@ -20,26 +13,15 @@ if (iw >= 768) {
     keyboard: {
       enabled: true,
     },
-    // mousewheel: true,
   });
   $(".sport nav a").click(function () { //지역변수 let 특성상 slideTo를 스와이퍼 내에 작성함
-    swiper1.slideTo($(this).index());
+    swiper3.slideTo($(this).index());
     return false;
   });
-  if(location.hash == "#spot1") {
-    swiper1.slideTo(2);
-  } else if(location.hash == "#spot2") {
-    swiper1.slideTo(0);
-  } else if(location.hash == "#spot3") {
-    swiper1.slideTo(3);
-  } else if(location.hash == "#spot4") {
-    swiper1.slideTo(1);
-  } else if(location.hash == "#spot5") {
-    swiper1.slideTo(4);
-  }
-}
+} 
 
-$(document).ready(function () {
+
+
   $(".subnav li a").click(function () {
     $("section." + $(this).attr("id")).addClass("on").siblings().removeClass("on");
     return false;

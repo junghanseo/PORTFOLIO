@@ -3,7 +3,6 @@
 @import url('../style/font.css');
 @import url('https://fonts.googleapis.com/css2?family=Material+Icons+Outlined');
 
-
 header {
     height: 700px;
     background: url('../img/brand/brand_bg.png') 50% 0% no-repeat;
@@ -48,7 +47,6 @@ header {
 .brand .sec1 .inner_wrap .left {
     float: left;
     width: 49%;
-    /* min-width: 488px; */
     height: 588px;
     background: url('../img/brand/value/value_visual.png') center no-repeat;
     background-size: cover;
@@ -165,7 +163,6 @@ header {
     width: 40%;
     min-width: 500px;
     text-align: justify;
-    /* word-break: keep-all; */
 }
 .history div[class^=sec]:nth-child(even) {padding-top: 200px;}
 .history div[class^=sec]:nth-child(even) .inner_wrap > div {
@@ -173,7 +170,11 @@ header {
     width: 40%;
     min-width: 500px;
     text-align: justify;
-    /* word-break: keep-all; */
+}
+
+.history div[class^=sec] .inner_wrap > div p {
+line-height: 1.7;
+font-weight: 300;
 }
 
 .history .sec1 {
@@ -255,8 +256,13 @@ header {
 .news-letter .content li a .text_box p span.material-icons-outlined {
     padding-right: 3px;
     vertical-align: top;
-    font-size: 20px;
 }
+
+.news-letter .content li a .text_box p span.material-icons-outlined::after {
+    content: '\e87e';
+    font-size: 18px;
+}
+
 .news-letter .content li a .thumnail {
     flex: 0 0 180px;
     height: 180px;
@@ -285,12 +291,5 @@ header {
 .news-letter .content li:nth-child(6) a .thumnail {
     background: url('../img/brand/newsletter/vol.141_2021_09.png') center no-repeat;
     background-size: contain;
-}
-
-.news-letter .content {
-    padding-top: 70px;
-    width: 95%;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 

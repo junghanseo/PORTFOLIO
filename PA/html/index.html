@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>파타고니아 메인페이지</title>
     <link rel="stylesheet" href="../style/indexStyle.css">
+    <link rel="stylesheet" href="../style/ieStyle.css">
     <link rel="stylesheet" media="all and (max-width: 1023px)" href="../style/indexTablet.css">
     <link rel="stylesheet" media="all and (max-width: 767px)" href="../style/indexMobile.css">
+    <link rel="stylesheet" href="../lib/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="../lib/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="top_bt">
-        <a href="#" class="material-icons-outlined top">arrow_upward</a>
+        <a href="#" class="material-icons-outlined top"></a>
         <div class="material-icons-outlined darkmode"><span></span></div>
     </div>
 
     <header>
         <nav>
             <h1><a href="./index.html">
-                    <!-- <img class="logo" src="../img/main/logo.png" alt="logo"> -->
                     <img class="logo" src="../img/main/logo.png" alt="logo">
                     <img class="logo dark" src="../img/main/logo_white.png" alt="logo">
                 </a></h1>
@@ -64,36 +66,36 @@
     </header>
 
     <section class="swiper sec1">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper sec1_slick">
             <div class="swiper-slide factor1">
                 <div class="text_box">
                     <h2>Patagonia is in business<br>
                         to save<br>
                         our home planet
                     </h2>
-                    <a href="./sub1.html#sec1">Learn more<span class="material-icons-outlined">keyboard_double_arrow_right</span></a>
+                    <a href="./sub1.html#sec1">Learn more<span class="material-icons-outlined arrow"></span></a>
                 </div>
             </div>
             <div class="swiper-slide factor2">
                 <div class="text_box">
                     <h2> GIVE BACK TO EARTH<br>
                         1% FOR THE PLANET</h2>
-                    <a href="./sub2.html#sec2">Learn more<span class="material-icons-outlined">keyboard_double_arrow_right</span></a>
+                    <a href="./sub2.html#sec2">Learn more<span class="material-icons-outlined arrow"></span></a>
                 </div>
             </div>
             <div class="swiper-slide factor3">
                 <div class="text_box">
                     <h2>BETTER THAN NEW<br>
                         WORN WEAR</h2>
-                    <a href="./sub3.html#sec3">Learn more<span class="material-icons-outlined">keyboard_double_arrow_right</span></a>
+                    <a href="./sub3.html#sec3">Learn more<span class="material-icons-outlined arrow"></span></a>
                 </div>
             </div>
         </div>
-        <div class="swiper-button-next material-icons-outlined">arrow_forward_ios</div>
-        <div class="swiper-button-prev material-icons-outlined">arrow_back_ios</div>
+        <div class="swiper-button-next material-icons-outlined"></div>
+        <div class="swiper-button-prev material-icons-outlined"></div>
         <div class="swiper-pagination"></div>
         <img class="sec1_icon" src="../img/main/mountain.png" alt>
-    </section>
+    </section> 
 
     <section class="sec2">
         <div class="left">
@@ -104,7 +106,7 @@
         <div class="right">
             <h3>Core Value</h3>
             <div class="swiper value">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper sec2_slick">
                     <div class="swiper-slide factor1">
                         <img src="../img/brand/value/value1.png" alt>
                         <dl>
@@ -137,12 +139,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
-    <section class="sec3">
+     <section class="sec3">
         <h2 class="sec3_ani" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="2000"><span>2020</span> season report</h2>
         <div class="swiper report" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper sec3_slick">
                 <div class="swiper-slide factor1">
                     <p>패브릭의 87%가<br>재활용 소재로<br>만들어졌습니다.</p>
                 </div>
@@ -166,9 +168,9 @@
         <div class="bt_box">
             <p>SCROLL</p>
         </div>
-    </section>
+    </section> 
 
-    <section class="sec4">
+     <section class="sec4">
         <div class="inner_wrap">
             <h2>Sports</h2>
             <ul class="menubar">
@@ -188,7 +190,7 @@
                         <a href="./sub3.html#spot1">더보기</a>
                     </div>
                     <div class="swiper sport1">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper sec4_slick">
                             <a href="#" class="swiper-slide factor1">
                                 <img src="../img/main/surfing/surfing1.png" alt>
                                 <p>Capilene® MW Zip Neck</p>
@@ -218,7 +220,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <section class="sec5">
         <div class="inner_wrap">
@@ -264,7 +266,7 @@
         </div>
     </section>
 
-    <section class="sec6">
+     <section class="sec6">
         <h4>Product Tester Reviews</h4>
         <ul class="m_nav">
             <li><a href="#">Macro Puff</a></li>
@@ -274,7 +276,7 @@
         <div class="m_view1"><a href="#"><span>view more</span></a></div>
         <div class="m_view2"><a href="#"><span>view more</span></a></div>
         <div class="m_view3"><a href="#"><span>view more</span></a></div>
-        <div class="flex_wrap">
+        <div class="flex_wrap clearfix">
             <div class="box1">
                 <div class="box_type1" data-aos="fade-up" data-aos-duration="1000"><a href="#">
                         <p><span>이수항</span>클라이머<br>캐필린 에어
@@ -318,18 +320,14 @@
                     </a></div>
             </div>
         </div>
-    </section>
+    </section> 
 
     <section class="sec7">
         <h3>News Letter
-            <a href="#" class="material-icons-outlined">add</a>
+            <a href="#" class="material-icons-outlined"></a>
         </h3>
-        <!-- <div class="bt_box">
-            <a href="#" class="material-icons-outlined">arrow_back_ios</a>
-            <a href="#" class="material-icons-outlined">arrow_forward_ios</a>
-        </div> -->
         <div class="swiper news">
-            <ul class="swiper-wrapper">
+            <ul class="swiper-wrapper sec7_slick">
                 <li class="swiper-slide factor1"><a href="#">
                         <p>Vol.146_2021.11.<br>
                             우리의 비즈니스가 기후 위기의 원인입니다.<br>
@@ -363,13 +361,13 @@
 
             </ul>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-next material-icons-outlined next">arrow_forward_ios</div>
-            <div class="swiper-button-prev material-icons-outlined prev">arrow_back_ios</div>
+            <div class="swiper-button-next material-icons-outlined next sec7"></div>
+            <div class="swiper-button-prev material-icons-outlined prev sec7"></div>
         </div>
     </section>
 
     <footer class=" inner">
-        <div class="upper">
+        <div class="upper clearfix">
             <ul class="menubar">
                 <li><a href="#">매장정보</a></li>
                 <li><a href="#">공지사항</a></li>
@@ -390,11 +388,13 @@
         </p>
     </footer>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../lib/IE-Checker/ie-checker-min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/index.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../lib/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>

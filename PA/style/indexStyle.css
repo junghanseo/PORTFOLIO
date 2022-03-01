@@ -48,6 +48,10 @@ header .main_vd {
     text-align: right;
 }
 
+.swiper.sec1 div[class*=factor] .text_box .arrow::after {
+    content: '\eac9';
+}
+
 .swiper.sec1 div[class*=factor] h2 {
     text-align: right;
     font-weight: 300;
@@ -79,7 +83,6 @@ header .main_vd {
 .swiper.sec1 .factor3 h2::before {
     width: 72%;
 }
-
 
 .swiper.sec1 div[class*=factor] a {
     display: block;
@@ -117,6 +120,9 @@ header .main_vd {
     display: none;
 }
 
+.swiper.sec1 .swiper-button-next::before {content: '\e5e1';}
+.swiper.sec1 .swiper-button-prev::before {content: '\e5e0';}
+
 .swiper.sec1>.material-icons-outlined {
     display: block;
     width: auto;
@@ -129,11 +135,8 @@ header .main_vd {
     display: none;
 }
 
-
 .swiper.sec1 .sec1_icon {
     position: absolute;
-    /* right: -180px;
-    bottom: -36px; */
     z-index: 9999;
 }
 
@@ -171,7 +174,6 @@ header .main_vd {
 .sec2 .left p br {
     display: none;
 }
-
 
 .sec2 .left img {
     position: absolute;
@@ -212,7 +214,6 @@ header .main_vd {
 }
 
 .sec2 .right div[class*=factor] dd {
-    /* word-break: keep-all; */
     text-align: justify;
 }
 
@@ -227,9 +228,6 @@ header .main_vd {
 }
 
 .sec3 h2.sec3_ani {
-    /* position: absolute;
-    top: 160px;
-    right: -50px; */
     display: inline-block;
     padding: 160px 0 50px 0;
     font: italic bold 170px "Open Sans", sans-serif;
@@ -242,13 +240,8 @@ header .main_vd {
 }
 
 @keyframes move {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(115%);
-    }
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(115%);}
 }
 
 .sec3 h2.sec3_ani br {
@@ -384,24 +377,15 @@ header .main_vd {
 
 .sec4 .content {
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: nowrap; */
-    /* justify-content: space-between; */
-
 }
 
 .sec4 .content .left {
-    /* flex: 0 0 26%; */
-    /* min-width: 46rem; */
     height: 46rem;
     background: url('../img/active/sports/surfing/surfing2.png') center no-repeat;
     background-size: cover;
     position: relative;
-    /* margin-right: 40px; */
     float: left;
-    /* min-width: 35rem; */
     width: 25%;
-    /* min-width: 300px; */
 }
 
 .sec4 .content .left::after {
@@ -420,7 +404,6 @@ header .main_vd {
 }
 
 .sec4 .content .right .text_box {
-    /* width: 612px; */
     width: 700px;
     height: 100px;
     position: relative;
@@ -457,7 +440,6 @@ header .main_vd {
 
 .sec5 .inner_wrap {
     width: 90%;
-    /*태블릿 사이즈로 연결*/
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 88px;
@@ -553,7 +535,6 @@ header .main_vd {
     display: none;
 }
 
-
 .sec6>h4 {
     position: relative;
     display: inline-block;
@@ -580,11 +561,9 @@ header .main_vd {
 
 .sec6 .flex_wrap {
     width: 98%;
-    /* 반응형 가로 비율 */
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    /* gap: 2%; */
     justify-content: space-between;
     padding-top: 60px;
     align-items: flex-start;
@@ -603,7 +582,6 @@ header .main_vd {
 .sec6 .flex_wrap .box3 {
     padding-top: 30px;
 }
-
 
 .sec6 .flex_wrap div[class^=box] div[class^=box_type] {
     flex-basis: auto;
@@ -728,18 +706,12 @@ header .main_vd {
     display: none;
 }
 
+.sec7>h3 a::after {content: '\e145';}
+
 .sec7 .swiper.news {
     height: 510px;
     position: relative;
 }
-
-/* .sec7 .swiper-wrapper {
-    display: flex;
-    gap: 40px;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    padding-top: 60px;
-} */
 
 .sec7 .swiper.news .swiper-wrapper {
     height: 40rem;
@@ -811,19 +783,13 @@ header .main_vd {
     margin-top: 15px;
 }
 
-/* .sec7 .bt_box {
-    text-align: right;
-}
-
-.sec7 .bt_box a {
-    font-size: 50px;
-    vertical-align: top;
-} */
-
 .swiper.news .swiper-button-next::after,
 .swiper.news .swiper-button-prev::after {
     display: none;
 }
+
+.swiper.news .swiper-button-next::before {content: '\e5e1';}
+.swiper.news .swiper-button-prev::before {content: '\e5e0';}
 
 .swiper.news .material-icons-outlined {
     display: block;
@@ -831,7 +797,6 @@ header .main_vd {
     height: auto;
     font-size: 50px;
     --swiper-theme-color: var(--color2);
-    /* position: absolute; */
 }
 
 .swiper.news .material-icons-outlined.next {

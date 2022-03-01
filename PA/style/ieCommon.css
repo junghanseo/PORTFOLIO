@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+html.is-ie {
+    font-size: 16px;
+}
+
+.is-ie h2 {font: normal 700 50px "Noto sans KR", sans-serif;}
+.is-ie h3 {font: normal 700 40px "Noto sans KR", sans-serif;}
+.is-ie h4 {font: normal 700 30px "Noto sans KR", sans-serif;}
+.is-ie h5 {font: normal 700 25px "Noto sans KR", sans-serif;}
+.is-ie h6, .is-ie dt {font: normal 700 18px "Noto sans KR", sans-serif;}
+.is-ie p, .is-ie a, .is-ie dd, .is-ie li {font: normal 400 16px "Noto sans KR", sans-serif;}
+
+.is-ie a {color: #000;}
+
+.is-ie .top_bt {display: none;}
+
+.is-ie header>nav {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.is-ie header nav h1 a {
+    display: inline-block;
+    background: url('../img/main/logo.png') center no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: inherit;
+}
+
+.is-ie header nav h1 a img.logo {display: none;}
+
+.is-ie header nav .shop_bt {
+    border: 1.5px solid  #000;
+}
+
+/* subnav */
+.is-ie body > .subnav {
+    border-bottom: 1.5px solid #b2b2b2;
+}
+
+.is-ie body > .subnav .menu li a {
+    font-size: 18px;
+}
+
+/* footer */
+.is-ie footer .upper .snslist {float: right;}
+.is-ie footer .upper .menubar {float: left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

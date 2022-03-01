@@ -16,9 +16,6 @@ header {
 .fabric_tech.on,
 .organization.on {display: block;}
 
-
-
-
 /* fabric_tech */
 
 .fabric_tech {
@@ -56,7 +53,6 @@ header {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
-    /* gap: 10%; */
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -247,7 +243,6 @@ header {
     left: 0;
 }
 
-
 .organization .content {
     width: 98%;
     max-width: 1200px;
@@ -299,7 +294,6 @@ header {
     padding-top: 30px;
     width: 49%;
     text-align: justify;
-    /* word-break: keep-all; */
 }
 
 .organization .content li:nth-child(even) dt {

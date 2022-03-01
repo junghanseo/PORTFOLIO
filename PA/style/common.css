@@ -42,7 +42,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 .clearfix::after {
@@ -82,7 +82,18 @@ ul {
     width: 8rem;
 }
 
-.top_bt .top {
+/* .top_bt .top {
+    font-size: 3rem;
+    color: #fff;
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    background-color: #0E76BD;
+    border-radius: 50%;
+} */
+.top_bt .top::after {
+    content: '\e5d8';
+    display: block;
     font-size: 3rem;
     color: #fff;
     width: 6rem;
